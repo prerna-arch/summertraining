@@ -1,7 +1,7 @@
 def square_of_numbers(nums):
     print("1.nums is:",nums,id(nums))#10
     for idx in range(0,len(nums)):
-        nums[idx] = nums[idx] * num[idx]
+        nums[idx] = nums[idx] * nums[idx]
     
     print("2.num is:",nums,id(nums))#100
     return

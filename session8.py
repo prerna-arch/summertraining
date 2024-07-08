@@ -18,7 +18,7 @@ class my_order:
 #below  is:object construction statement
 order1 = my_order()
 order2 = my_order()
-#reference copy operation
+#reference copy operation,whatever will be in order2 it will copy in order3 and order3 and order2 will have same hashcode of object my_order.
 order3 = order2
 # order is a refernce variable,my_order()- represent the object construction
 print(order1)
